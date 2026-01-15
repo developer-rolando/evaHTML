@@ -1,0 +1,32 @@
+body {
+
+    background-color: bisque;
+
+
+}
+
+img {
+    width: 50%;
+}
+
+.divContent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 70px;
+    border-radius: 8px;
+    text-align: center;
+
+    /*min-width: 300px;*/
+}
